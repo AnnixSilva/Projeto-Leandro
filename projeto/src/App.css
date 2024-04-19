@@ -27,11 +27,10 @@
 }
 
 .App-header-Home{
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   z-index: 100;
-  margin-top: -912px;
   background-color: #121212; 
 }
 
@@ -41,53 +40,78 @@
 }
 
 .App-Logo{
-  margin-top: -60px;
+  position: relative;
+  top: -65px;
   z-index: 500;
-  margin-right: 1790px;
+  right: 920px;
 }
 
 .App-Cart{
-  margin-top: -62px;
+  position: relative;
+  top: -122px;
   z-index: 500;
-  margin-left: 1090px;
+  left: 629px;
 }
 
 .App-Logo2{
-  position: absolute;
-  margin-top: -400px;
-  margin-left: 1250px;
+  position: relative;
+  top: -89px;
+  left: 580px;
+
 }
 
 .App-Logo3{
-  position: absolute;
-  margin-top: -490px;
-  margin-right: 960px;
+  position: relative;
+  top: -470px;
+  right: 500px;
 }
 
-.App-Logo4{
-  position: absolute;
-  justify-content: center;
-  top: 800px;
-  z-index: 0;
+.App-Placa1{
+  position: relative;
+  top: -370px;
   background-color: #2E231B;
+  z-index: 0;
 }
 
-.ifood{
-  position: absolute;
-  margin-top: 1710px;
-  margin-right: -350px;
+.App-Placa2{
+  position: relative;
+  top: -430px;
+  background-color: #2E231B;
   z-index: 1;
 }
 
-.Delivery{
-  position: absolute;
-  margin-top: 1780px;
-  margin-right: -650px;
+.App-Placa3{
+  position: relative;
+  top: -870px;
+  background-color: #2E231B;
+  z-index: 3;
+}
+
+
+.Ifood{
+  position: relative;
+  top: -780px;
+  left: 185px;
   z-index: 2;
+}
+
+.delivery{
+  position: relative;
+  top: -940px;
+  left: 340px;
+  z-index: 3;
+}
+
+.card{
+  position: fixed;
+  top: -1200px;
+  left: -320px;
+  z-index: 4;
+
 }
 
 
 .d-flex{
-  margin-top: -48px;
-  margin-left: 1557px;
+  top: -48px;
+  left: 1557px;
 }
